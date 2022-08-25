@@ -1,5 +1,5 @@
 import * as React from 'react'
-import * as styles from '../scss/top.module.scss';
+import * as styles from '../scss/styles.module.scss';
 
 interface IndexPageProps { }
 

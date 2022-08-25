@@ -203,14 +203,14 @@
 
 
 /* solution */
-.solution-title{
+.solutiontitle{
   font-size:2.8rem;			
 	font-weight: bold;
 	margin-bottom:1em;
 }
 
 
-.solution-body{
+.solutionbody{
   font-size:2.0rem;
 	margin-bottom:1em;	
 	color:#707070;  	
@@ -222,73 +222,73 @@
 
 
 @media only screen and (min-width: 768px) {	
-  .block.-solution .column2{
+  .block.solution .column2{
     max-width: calc(1100px + 3em);      
   }
 
-  .-solution1{
+  .solution1{
 		margin-bottom:9.25em;			
     align-items: center;
 	}
 
-  .-solution1 .column2-item:nth-child(1){
+  .solution1 .column2item:nth-child(1){
     width:55%;
   }
 
-  .-solution1 .column2-item:nth-child(2){  
+  .solution1 .column2item:nth-child(2){  
     width:40%;
   }
 
-  .-solution2{
+  .solution2{
 		margin-bottom:9.25em;		
     align-items: center;	
 	}
   
-  .-solution2 .column2-item:nth-child(1){
+  .solution2 .column2item:nth-child(1){
     width:56%;
   }
 
-  .-solution2 .column2-item:nth-child(2){  
+  .solution2 .column2item:nth-child(2){  
     width:35%;
   }
 
 
-  .-solution3{
+  .solution3{
 		margin-bottom:7.75em;			
     align-items: center;
 	}
 
-  .-solution3 .column2-item:nth-child(1){
+  .solution3 .column2item:nth-child(1){
     width:56%;
   }
 
-  .-solution3 .column2-item:nth-child(2){  
+  .solution3 .column2item:nth-child(2){  
     width:35%;
   }
 
-  .-solution4{
+  .solution4{
 		margin-bottom:3.25em;			
     align-items: center;
 	}
 
-  .-solution4 .column2-item:nth-child(1){
+  .solution4 .column2item:nth-child(1){
     width:56%;
   }
 
-  .-solution4 .column2-item:nth-child(2){  
+  .solution4 .column2item:nth-child(2){  
     width:40%;
   }
   
-  .-solution5{
+  .solution5{
 		margin-bottom:6em;		
     align-items: center;	
 	}
 
-  .-solution5 .column2-item:nth-child(1){
+  .solution5 .column2item:nth-child(1){
     width:56%;
   }
 
-  .-solution5 .column2-item:nth-child(2){  
+  .solution5 .column2item:nth-child(2){  
     width:40%;
   }  
 }
@@ -350,7 +350,7 @@
 
 
 
-.block.-company .column2-item img{
+.block.company .column2item img{
   max-width:initial!important;
 }  
 
@@ -488,9 +488,10 @@
 
 
 
-.block.-solution .column2-item img{
+.block.solution .column2item img{
 	width:100%;
 	max-width:initial!important;
+  height: initial;
 }
 
 
