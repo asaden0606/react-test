@@ -1,6 +1,8 @@
 import * as React from 'react'
 import CompanyPage from './company';
+import ContactPage from './contact';
 import FKVPage from './fkv';
+import InformationPage from './information';
 import SolutionPage from './solution';
 
 
@@ -29,6 +31,8 @@ export default class IndexPage extends React.Component<IndexPageProps, {}> {
         <FKVPage></FKVPage>
         <SolutionPage></SolutionPage>
         <CompanyPage></CompanyPage>
+        <InformationPage></InformationPage>
+        <ContactPage></ContactPage>
       </div>  
     )
   }

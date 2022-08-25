@@ -453,12 +453,12 @@
 
 
 /* info */
-.info-list{
+.infolist{
   margin:auto;
 }
 
 
-.info-list li{
+.infolist li{
   display: flex;  
   color:#423E36;
   border-bottom:1px solid #423E36;
@@ -467,18 +467,18 @@
 }
 
 
-.info-list h5{
+.infolist h5{
   font-size:2.2rem;
 }
 
 
-.info-list p{
+.infolist p{
   font-size:2.2rem;  
   font-weight: bold;
 }
 
 
-.information-block{
+.informationblock{
   padding-top:5em;
   padding-bottom:5em;
 }
@@ -497,12 +497,12 @@
 
 
 @media only screen and (min-width: 768px) {
-  .block.-information{
+  .block.information{
     margin-top:3.0em!important;    
     padding-bottom:10.0em!important;
   }
 
-  .info-list{
+  .infolist{
     margin-top:-0.3em;
     max-width:884px;  
     padding-left:1.5em;
@@ -510,18 +510,18 @@
   }
 
 
-  .info-list h5{
+  .infolist h5{
     margin-right:3.5em;
   }
 }  
 
 @media only screen and (max-width: 767px) {
-  .info-list h5{    
+  .infolist h5{    
     margin-right:1em;
   }
 
   
-  .info-list{    
+  .infolist{    
     padding-left:1.5em;    
     padding-right:1.5em;    
   }  
@@ -531,30 +531,30 @@
 
 /*   contact */
 
-.wpcf7 input[type="text"],.wpcf7 input[type="email"] { /* 名前入力欄 */
+.contactform input[type="text"],.contactform input[type="email"] { /* 名前入力欄 */
 	width: 100%;
 	color: black!important;
   height:3.5em;
 }
 
-.wpcf7 textarea[name="your-message"] { /* 本文入力欄 */
+.contactform textarea[name="your-message"] { /* 本文入力欄 */
 	width: 100%;
 	color: black!important;
   height:20em;
 }
 
-.contact-row:nth-child(4) .contact-header{
+.contactrow:nth-child(4) .contact-header{
 	padding-top:0.5em;
 }
 
 
-.contact-form{
+.contactform{
 	margin:auto;
 	max-width: calc(1000px + 3em);
 }
 
 
-.contact-row{
+.contactrow{
 	display: flex;		
 	width: 100%;
 	justify-content: space-between;
@@ -564,19 +564,19 @@
 
 
 
-.contact-row.-top{
+.contactrow.top{
   align-items: flex-start;
 }
 
 
-.contact-header{
+.contactheader{
   font-size:2.5rem;  
 	vertical-align: top;;
   font-weight: bold;
 }
 
 
-.wpcf7 input[type="submit"]{
+.contactform input[type="submit"]{
   font-size:2.8rem;
 	border-radius: 1em;
 	color:#5F5F5F!important;	
@@ -590,13 +590,13 @@
 }
 
 
-.wpcf7 input[type="submit"]:hover{
+.contactform input[type="submit"]:hover{
 	background: white!important; 
 	color:#5F5F5F!important;
 	opacity: 0.8;
 }	
 
-.wpcf7 input[type="submit"]:focus{
+.contactform input[type="submit"]:focus{
 	background: white!important; 	
 	 color:#5F5F5F!important;	
 	 opacity: 0.6;
@@ -604,13 +604,13 @@
 
 
 
-.wpcf7-spinner{
+.wpcf7spinner{
   display: none!important;
 }
 
 
 
-.wpcf7-response-output{
+.wpcf7responseoutput{
   position:absolute;
   border:none!important;
   text-align: center;
@@ -626,12 +626,12 @@
 
 /*   pc */
 @media only screen and (min-width: 768px) {
-  .block.-contact{
+  .block.contact{
     padding-top:6.9em!important;    
     padding-bottom:10.2em!important;
   }
  
-  .contact-form{
+  .contactform{
     margin-top:-2.2em;    
 	padding-left:1.5em;
 	padding-right:1.5em;		
@@ -639,12 +639,12 @@
   }
 
 
-	.contact-header{
+	.contactheader{
 		width:50%;
 		padding-left:8em;
 	}		
 
-	.contact-value{
+	.contactvalue{
 		width:50%;
 	}	
 }
@@ -652,16 +652,16 @@
 
 
 @media screen and (max-width: 767px) {
-	.contact-form{
+	.contactform{
 		padding-left:1.5em;
 		padding-right:1.5em;		
 	}
 
-	.contact-header{
+	.contactheader{
 		width:4em;
 	}		
 
-	.contact-value{
+	.contactvalue{
 		width:calc(100% - 4em);		
 	}
 
