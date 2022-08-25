@@ -19,12 +19,12 @@
 }
 
 
-.block.-reverse{
+.block.reverse{
   background:#423E36;    
 }
 
 
-.block.-reverse *{
+.block.reverse *{
   color:white;
 }
 
@@ -304,45 +304,45 @@
 
 
 /* company */
-.company-seoheader{
+.companyseoheader{
   font-size:2.8rem;
 }
 
-.company-seoname{
+.companyseoname{
   font-size:3.8rem;        
   font-weight: bold;
   margin-bottom:1em;
 }
 
 
-.company-seobody{
+.companyseobody{
   font-size:2rem;
 }
 
 
-.company-info{
+.companyinfo{
   max-width:600px;
   margin:auto;
 }
 
-.company-inforow{
+.companyinforow{
   display: flex;
   justify-content: space-between;
   margin-bottom:2em;
 }
 
-.company-infotitle{
+.companyinfotitle{
   font-size:2rem;
   font-weight:bold;    
   width:20%;
 }
 
-.company-infobody{
+.companyinfobody{
   font-size:2rem;  
   width:70%;  
 }
 
-.company-infobody ul{
+.companyinfobody ul{
   list-style:disc;
   padding-left:1em;
 }
@@ -358,19 +358,19 @@
 
 
 @media only screen and (min-width: 768px) {
-  .block.-company{
+  .block.company{
     padding-top:4.7em!important;    
     padding-bottom:7em!important;
   }
 
 
 
- .company-seo-body{
+ .companyseobody{
    max-width:486px;
   }
 
  
-  .-company1{
+  .company1{
     justify-content: space-evenly;    
     max-width:1030px!important;
     padding-top:0.2em;
@@ -378,71 +378,71 @@
 	align-items: center;
   }
 
-  .-company1 .column2-item:nth-child(1){
+  .company1 .column2item:nth-child(1){
     width:50%;
   }
 
-  .-company1 .column2-item:nth-child(2){
+  .company1 .column2item:nth-child(2){
     width:50%;
   }
 
 
 
-  .block.-company .column2-item:nth-child(1){
+  .block.company .column2item:nth-child(1){
     padding-right:5em;
     text-align: right;  
   }
 
 
-  .block.-company .column2-item img{
+  .block.company .column2item img{
     width:306px;
     height:392px;
     object-fit: contain;
   }  
 	
 	
-  .company-info{
+  .companyinfo{
     padding-left:1.5em;
     padding-right:1.5em;
   }    
 
-  .company-info-body{
+  .companyinfobody{
  	padding-left:2em;
   }    
 }  
 
 
 @media only screen and (max-width: 767px) {
-  .block.-company{
+  .block.company{
     padding-bottom:3em!important;    
   }
 
 
-  .block.-company .column2-item:nth-child(1){
+  .block.company .column2item:nth-child(1){
     text-align: center;
   }    
 
 
-  .block.-company .column2-item{
+  .block.company .column2item{
     width:100%;
   }  
 
-  .block.-company .column2-item img{
+  .block.company .column2item img{
     width:70%;
   }  
 
 
-  .company-info{
+  .companyinfo{
     padding-left:1.5em;
     padding-right:1.5em;
   }    
 	
-  .company-seoheader{
+  .companyseoheader{
 	  font-size:2rem;  
 	  text-align:center;
   }
 	
-  .company-seoname{
+  .companyseoname{
       font-size:3rem;
 	  text-align:center;
   }

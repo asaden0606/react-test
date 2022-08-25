@@ -6,7 +6,7 @@ interface IndexPageProps { }
 export default class FKVPage extends React.Component<IndexPageProps, {}> {
     public render() {
         return (            
-            <div id='top' className={`${styles['topblock']} ${styles['fkv']}`}>
+            <div id='top' className={`${styles.topblock} ${styles.fkv}`}>
 
                 <div className={styles.topfkv}>
                     <video className={styles.topfkvback} src="/imgs/top-fkv.mov" muted playsInline

@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+
+
+.jsfadeup {
+	-webkit-transform: translateY(45px);
+	transform: translateY(45px);
+}
+
+.jsfadedown {
+	-webkit-transform: translateY(-45px);
+	transform: translateY(-45px);
+}
+
+.jsfadeleft {
+	-webkit-transform: translateX(45px);
+	transform: translateX(45px);
+}
+
+
+.jsfaderight {
+	-webkit-transform: translateX(-45px);
+	transform: translateX(-45px);
+}
+
+
+[data-scroll] {
+	transition: all 1s;
+}
+
+[data-scroll="in"] {
+	opacity: 1;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+}
+
+[data-scroll="out"] {
+	opacity: 1;
+}
+
