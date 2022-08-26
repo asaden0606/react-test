@@ -7,7 +7,7 @@ import InformationPage from './information';
 import SolutionPage from './solution';
 const ScrollOut = require('scroll-out');
 import * as styles from '../scss/styles.module.scss';
-
+import TrackingPage from './tracking';
 
 interface IndexPageProps { }
 
@@ -46,17 +46,6 @@ export default class IndexPage extends React.Component<IndexPageProps, {}> {
     });    
 
 
-    /*
-    $(styles.animation).on('inview',function(){	
-      console.log("inview");
-      const $this:any = $(this);
-      $this.textillate({ 
-        initialDelay: 0,
-        in: { effect: 'bounceInDown' } 
-      });			
-      $(this).css("opacity",1);	
-    })
-    */
   }
 
 
@@ -68,8 +57,7 @@ export default class IndexPage extends React.Component<IndexPageProps, {}> {
         <link rel="stylesheet" href="/lib/textillate/animate.css" />
 
 
-        <script type="text/javascript" src="/lib/three/three.js"></script>
-        <script type="text/javascript" src="/js/common.js"></script>
+        <TrackingPage></TrackingPage>
         <FKVPage></FKVPage>
         <SolutionPage></SolutionPage>
         <CompanyPage></CompanyPage>
