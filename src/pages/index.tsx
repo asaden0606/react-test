@@ -8,6 +8,7 @@ import SolutionPage from './solution';
 const ScrollOut = require('scroll-out');
 import * as styles from '../scss/styles.module.scss';
 import TrackingPage from './tracking';
+import TopFirstPage from './top-first';
 
 interface IndexPageProps { }
 
@@ -56,7 +57,7 @@ export default class IndexPage extends React.Component<IndexPageProps, {}> {
         <link rel="stylesheet" href="/lib/lightbox2/css/lightbox.min.css" />
         <link rel="stylesheet" href="/lib/textillate/animate.css" />
 
-
+        <TopFirstPage></TopFirstPage>
         <TrackingPage></TrackingPage>
         <FKVPage></FKVPage>
         <SolutionPage></SolutionPage>

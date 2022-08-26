@@ -47,7 +47,7 @@
 
 
 
-.top-first{
+.topfirst{
   z-index:10000;
   position:fixed;    
   animation-delay:2s;
@@ -60,7 +60,7 @@
 }
 
 
-.topfirst-title{
+.topfirsttitle{
   position: absolute;
   top:40%;
   left:-2em;
@@ -68,19 +68,19 @@
   width: 100vw;
 }
 
-.topfirst-title img{
+.topfirsttitle img{
   display: block;  
   width: 50%;
   margin:auto;
 }
 
 @media only screen and (max-width: 767px) {
-  .topfirst-title{
+  .topfirsttitle{
     left:0em;
   }    
 
 
-  .topfirst-title img{
+  .topfirsttitle img{
     width: 75%;
   }  
 }  
